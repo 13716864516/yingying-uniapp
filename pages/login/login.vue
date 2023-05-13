@@ -349,7 +349,7 @@
 				});
 				uni.request({
 					url: app.globalData.site_url + "Login.LoginByThird",
-					method: 'POST',
+					method: 'GET',
 					data: {
 						'openid': unionid,
 						'source': source,

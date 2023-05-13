@@ -43,7 +43,6 @@
 			}
 		},
 		onLoad() {
-			this.getData();	
 		},
 		onShow() {
 			this.getData();

@@ -16,8 +16,8 @@
 							<text @click="focus(teacherInfo.id)" :class="guanzhu_class" class="teacher-guan">{{guanzhutext}}</text>
 						</view>
 						<view @click="viewstu(teacherInfo.id)" class="teacher-stunum-wrap">
-							<text class="t-stu">学员</text>
 							<text class="t-stu-num">{{teacherInfo.fans}}</text>
+							<text class="t-stu">关注</text>
 						</view>
 						
 					</view>

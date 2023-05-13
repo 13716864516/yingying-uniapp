@@ -78,7 +78,7 @@
 			setTimeout(() => {
 				uni.request({
 					url: Agent,
-					method: 'POST',
+					method: 'GET',
 					data: {
 						'courseid': option.courseid,
 						'type': option.type,

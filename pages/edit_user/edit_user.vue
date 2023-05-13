@@ -74,7 +74,7 @@
 						var path = tempFilePaths[0];
 						uni.request({
 							url: app.globalData.site_url + 'Upload.GetQiniuToken',
-							method: 'POST',
+							method: 'GET',
 							data: {
 								'uid': app.globalData.userinfo.id,
 								'token': app.globalData.userinfo.token
@@ -155,7 +155,7 @@
 				//更新用户资料到
 				uni.request({
 					url: gData.site_url + 'User.UpUserInfo',
-					method: 'POST',
+					method: 'GET',
 					data: {
 						'uid': gData.userinfo.id,
 						'token': gData.userinfo.token,

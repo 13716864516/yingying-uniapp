@@ -315,7 +315,7 @@
 			let gData = app.globalData;
 			uni.request({
 				url: gData.site_url + 'Cart.getDeduct',
-				method: 'POST',
+				method: 'GET',
 				data: {
 					'uid': gData.userinfo.id,
 					'token': gData.userinfo.token,
@@ -364,7 +364,7 @@
 				let gData = getApp().globalData;
 				uni.request({
 					url: gData.site_url + 'Cart.GetPayList',
-					method: 'POST',
+					method: 'GET',
 					data: {
 						'uid': gData.userinfo.id,
 						'token': gData.userinfo.token,
@@ -413,7 +413,7 @@
 				let gData = app.globalData;
 				uni.request({
 					url: gData.site_url + 'Cart.Buy',
-					method: 'POST',
+					method: 'GET',
 					data: {
 						'uid': gData.userinfo.id,
 						'token': gData.userinfo.token,

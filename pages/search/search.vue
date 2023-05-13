@@ -184,7 +184,7 @@
 				} else {
 					uni.request({
 						url: app.globalData.site_url + 'User.Iftoken',
-						method: 'POST',
+						method: 'GET',
 						data: {
 							'uid': app.globalData.userinfo.id,
 							'token': app.globalData.userinfo.token
