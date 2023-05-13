@@ -1,0 +1,53 @@
+
+.teacher-main{
+	background-color: #fff;
+	padding-top: 30rpx;
+}
+/* 大班课/内容列表公共样式 */
+.live-list{
+	width: 719rpx;
+	height: 111rpx;
+	padding-top: 20rpx;
+	border-bottom: 2rpx solid #F7F7F7;
+	display: flex;
+	margin: 0rpx auto;
+}
+.live-list-img-wrap{
+	width: 91rpx;
+	height: 91rpx;
+	position: relative;
+}
+.live-list-img{
+	width: 91rpx;
+	height: 91rpx;
+	border-radius: 91rpx;
+}
+.live-list-img-icon{
+	width: 29rpx;
+	height: 29rpx;
+	position: absolute;
+	right: 0rpx;
+	bottom: 0rpx;
+}
+.live-list-info{
+	display: flex;
+	justify-content: space-between;
+	width: 628rpx;
+}
+.live-c-title{
+	padding-left: 20rpx;
+	line-height: 80rpx;
+	width: 540rpx;
+}
+.live-teacher-price{
+	padding-right: 20rpx;
+	line-height: 90rpx;		
+	width: 95rpx;
+	text-align: right;
+	color: #00be54;
+}
+
+
+
+
+

@@ -1,0 +1,1 @@
+<view><uni-nav-bar vue-id="1cea7424-1" left-icon="back" border="{{false}}" title="关于我们" onlive="{{true}}" data-event-opts="{{[['^clickLeft',[['back']]]]}}" bind:clickLeft="__e" bind:__l="__l"></uni-nav-bar><view class="flex flex-column pb-2"><text class="font text-light-muted" style="padding-left:20rpx;">关于我们</text></view></view>

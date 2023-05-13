@@ -1,0 +1,1 @@
+<view class="lianxi-all-wrap"><uni-nav-bar vue-id="52bfc284-1" left-icon="back" border="{{false}}" title="联系我们" data-event-opts="{{[['^clickLeft',[['back']]]]}}" bind:clickLeft="__e" bind:__l="__l"></uni-nav-bar><text class="lianxi-content">联系我们获取相关最新活动版本~</text></view>

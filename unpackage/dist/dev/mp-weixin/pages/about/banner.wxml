@@ -1,0 +1,1 @@
+<view><uni-nav-bar vue-id="0c19bbff-1" border="{{false}}" left-icon="back" title="万岳教育" data-event-opts="{{[['^clickLeft',[['back']]]]}}" bind:clickLeft="__e" bind:__l="__l"></uni-nav-bar><web-view src="{{url}}"></web-view></view>

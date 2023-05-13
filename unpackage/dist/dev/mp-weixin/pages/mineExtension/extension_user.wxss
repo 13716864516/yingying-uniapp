@@ -1,0 +1,31 @@
+
+.extension_user-li-name{
+	position: relative;
+	left: 15px;
+	bottom: 15px;
+}
+.extension_user-li-avatar{
+	width: 40px;
+	height: 40px;
+	border-radius: 50px;
+}
+.extension_user-li{
+	width: 90%;
+	margin: 0 auto;
+	border-bottom: 1px solid #F5F5F5;
+	padding: 10px 0 10px 0;
+}
+.extension_user-content-text{
+	color: #C7C7C7;
+	font-size: 24rpx;
+	margin-top: 20rpx;
+}
+.extension_user-content{
+	text-align: center;
+	margin-top: 50%;
+}
+.extension_user-content-img{
+	width: 164rpx;
+	height: 132rpx;
+}
+

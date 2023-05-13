@@ -1,0 +1,5 @@
+~@  // 照片引入根目录
+
+				<view @click="showTeacherInfo(userInfo.id)" v-if="isTeacherInfo == '1'" class="teacher-info-btn">
+					暂未完成(学生作品)
+				</view>

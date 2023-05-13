@@ -1,0 +1,455 @@
+
+.live-list {
+		margin-bottom: 60rpx;
+		padding: 0 8rpx;
+}
+.live-list::after {
+		display:block;
+		clear:both;
+		height:0;
+		content: "";
+		visibility: hidden;
+		overflow:hidden;
+}
+.live-list-img-wrap {
+		position: relative;
+		width: 31%;
+		height: 180rpx;
+		float: left;
+		margin-right: 6rpx;
+}
+	
+	/* 课程图片 */
+.live-list-img {
+		width: 100%;
+		height: 100%;
+		border-radius: 8rpx;
+}
+.course-title-icon {
+		position: absolute;
+		left: 0rpx;
+		top: 2rpx;
+
+
+
+		width: 80rpx;
+		height: 40rpx;
+		line-height: 40rpx;
+		text-align: center;
+		border-radius: 8rpx 0 8rpx 0;
+		background-color: rgba(0, 0, 0, 0.6);
+		font-size: small;
+		color: #DBDBDB;
+}
+	
+	/* 课程内容 */
+.live-list-info {
+		float: left;
+		width: 65%;
+		height: 180rpx;
+		margin-left: 15rpx;
+}
+.live-teacher-avatar {
+		width: 35rpx;
+		height: 35rpx;
+		border-radius: 50%;
+}
+.live-teacher-avatar {
+		width: 35rpx;
+		height: 35rpx;
+		border-radius: 50%;
+}
+	
+	/* 直播/内容列表标题 */
+.live-c-title {
+		font-weight: bold;
+		width: 95%;
+		line-height: 30rpx;
+}
+.live-status {
+		font-size: small !important;
+		color: #969696;
+}
+.tuwen-title-wrap {
+		display: inline-block;
+		width: 60rpx;
+		height: 30rpx;
+		line-height: 30rpx;
+		text-align: center;
+		font-size: small;
+		border: 2rpx solid #969696;
+		color: #969696;
+}
+.living-status {
+		color: #64D3AD;
+}
+.live-status {
+		margin-top: 16rpx;
+}
+.live-teacher-price {
+		margin-top: 20rpx;
+		height: 50rpx;
+		display: flex;
+		align-items: center;
+}
+.teacher-name {
+		font-size: small;
+}
+.price-wrap {
+		display: inline-block;
+		color: #64D3AD;
+}
+.numPrice text {
+		color: #FF1B20;
+}
+.price-wrap {
+		display: inline-block;
+		margin-left: 50%;
+}
+	
+	/* 课程列表区域 */
+.course-list-wrap {
+	margin-top: 40rpx;
+}
+.live-title {
+	font-size: 30rpx;
+	font-weight: bold;
+	margin-left: 10rpx;
+}
+.jiaocai-image{
+	   width: 20rpx;
+	   height: 20rpx;
+	   margin-top: 13rpx;
+	   margin-left: 20rpx;
+}
+.jiaocai-text{
+	   color: #64D3AD;
+	   font-size: 10px;
+	   margin-top: 5rpx;
+	   margin-left: 5rpx;
+}
+.row{
+	display: flex;
+	flex-direction: row;
+}
+.live-more {
+	font-size: 20rpx;
+	position: absolute;
+	right: 20rpx;
+	color: #969696;
+	margin-top: 10rpx;
+	height: 40rpx;
+	line-height: 40rpx;
+}
+.more_image {
+	width: 20rpx;
+	height: 20rpx;
+	position: absolute;
+	right: 5rpx;
+	margin-top: 20rpx;
+}
+.content-more {
+	position: absolute;
+	right: 50rpx;
+	display: inline;
+	color: #969696;
+	font-size: 20rpx;
+}
+.live-list {
+	margin-bottom: 20rpx;
+	padding-left: 8rpx;
+}
+.live-list::after {
+	display: block;
+	clear: both;
+	height: 0;
+	content: "";
+	visibility: hidden;
+	overflow: hidden;
+}
+	
+	/* 课程图片 */
+.live-list-img {
+	width: 100%;
+	height: 100%;
+	border-radius: 8rpx;
+}
+.course-title-icon {
+	position: absolute;
+	left: 0rpx;
+	top: 0rpx;
+	width: 60rpx;
+	height: 30rpx;
+	line-height: 30rpx;
+	text-align: center;
+	border-radius: 8rpx 0 8rpx 0;
+	background-color: rgba(0, 0, 0, 0.6);
+	font-size: 18rpx;
+	color: #DBDBDB;
+}
+	
+	/* 课程内容 */
+.live-list-info {
+	float: left;
+	width: 66%;
+	height: 160rpx;
+	margin-left: 15rpx;
+}
+.live-list-img-wrap {
+	position: relative;
+	width: 31%;
+	height: 160rpx;
+	float: left;
+	margin-right: 6rpx;
+	margin-top: 20rpx;
+}
+	
+	/* 课程列表外包装 */
+.course-list-wrap .course-wrap {
+	margin-top: 20rpx;
+	width: 98%;
+	margin-left: calc(1%);
+	padding-top: 20rpx;
+	padding-bottom: 40rpx;
+	border-radius: 10rpx;
+	box-shadow:  0 0 5px #E7EBED;
+}
+	
+	/* 直播列表标题 */
+.live-c-title {
+	font-weight: bold;
+	overflow: hidden;
+	height: 70rpx;
+	line-height: 1.3em;
+	-webkit-line-clamp: 2;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	margin-top: 20rpx;
+}
+.live-status {
+	font-size: 10px;
+	margin-top: 5rpx;
+	color: #969696;
+}
+.tuwen-image {
+	width: 80rpx;
+	height: 30rpx;
+	margin-top: 10rpx;
+}
+.live-status-tuwen {
+	margin-top: 10rpx;
+	font-size: 18rpx;
+	color: #969696;
+	width: 80rpx;
+	text-align: center;
+	border: 1rpx solid #969696;
+	border-radius: 6rpx;
+}
+.living-status {
+	font-size: 10px;
+	margin-top: 5rpx;
+	color: #64D3AD;
+}
+	
+	/* 价格 */
+.live-teacher-price {
+	display: flex;
+	height: 60rpx;
+	margin-top: 5rpx;
+}
+.teacher-name {
+	margin-left: 15rpx;
+	font-size: 20rpx;
+	color: #323232;
+	width: auto;
+	height: 60rpx;
+	line-height: 60rpx;
+	/* margin-top: 22rpx; */
+}
+.price-wrap {
+	display: flex;
+	color: #64D3AD;
+	position: absolute;
+	right: 10px;
+	height: 60rpx;
+	line-height: 60rpx;
+	font-size: 26rpx;
+}
+.live-teacher-avatar {
+	width: 35rpx;
+	height: 35rpx;
+	border-radius: 50%;
+	margin-top: 13rpx;
+}
+.live-teacher-avatar-taocan {
+	width: 45rpx;
+	height: 35rpx;
+}
+.free {
+	color: #64D3AD;
+}
+.numPrice {
+	color: #FF1B20;
+}
+.pass {
+	color: #4385FF;
+}
+.live-list {
+	height: 210rpx !important;
+	padding-top: 10rpx !important;
+}
+.price-wrap {
+	padding-right: 26rpx !important;
+}
+	
+	/* 大班课单独样式 */
+.liveinfo-wrap {
+	padding-top: 2rpx;
+	min-height: 1500rpx;
+	background-color: #FAFAFA;
+}
+.live-list {
+	width: 90%;
+	height: 190rpx;
+	margin: 30rpx auto;
+	padding-top: 20rpx;
+	box-shadow: 0rpx 0rpx 4rpx 2rpx rgba(0, 0, 0, 0.1);
+	border-radius: 8rpx;
+	background-color: #FFFFFF;
+}
+.live-c-title {
+	line-height: 35rpx;
+
+
+
+	height: 40%;
+}
+.live-teacher-price {
+}
+.price-wrap {
+	margin-left: 55% !important;
+}
+.teacher-top-wrap {
+	padding-top: 66rpx;
+	width: 100%;
+	height: 220rpx;
+	background-color: #141414;
+}
+.t-back-img {
+	width: 35rpx;
+    height: 35rpx;
+	margin-left: 20rpx;
+}
+.teacher-top {
+	height: 90%;
+}
+.teacher-top-info {
+	height: 90%;
+	margin-top: 20rpx;
+	padding-left: 40rpx;
+}
+.ttop-info-avatar-wrap {
+	float: left;
+	width: 100rpx;
+	height: 100rpx;
+}
+.ttop-info-avatar {
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+.ttop-info-right {
+	float: left;
+	width: 80%;
+	margin-left: 30rpx;
+	height: 40%;
+}
+.teacher-name-msg {
+	width: 100%;
+	height: 70%;
+	color: #FFFFFF;
+}
+.teacher-username {
+	/* display: inline-block; */
+	width: 300rpx;
+	height: 100%;
+	font-size: 36rpx;
+	font-weight: bold;
+	/* letter-spacing: 4rpx; */
+}
+.teacher-guan {
+	position: absolute;
+	right: 20rpx;
+	top: 150rpx;
+	font-size: small;
+	color: #38DAA6;
+}
+	
+	/* 已关注 */
+.t-had-guanzhu {
+	color: #646464;
+}
+.showline {
+	display: inline-block;
+}
+	
+	/* 学员数量 */
+.teacher-stunum-wrap {
+	display: inline-block;
+	margin-top: 20rpx;
+	color: #969696;
+	font-size: 28rpx;
+}
+.t-stu-num {
+	margin-left: 10rpx;
+}
+	
+	/* 滑动页 */
+.teacher-info-tab {
+	height: 100rpx;
+	border-bottom: 10rpx solid #FAFAFA;
+}
+.teacher-item-wrap {
+	width: 90%;
+	margin: 0 auto;
+}
+.finish-school {
+	margin-top: 20rpx;
+}
+.ttinfo-item {
+	margin-bottom: 30rpx;
+}
+.ttinfo-title {
+	height: 50rpx;
+	font-weight: bold;
+	font-size: medium;
+}
+.ttinfo-content {
+	min-height: 50rpx;
+	margin-top: 10rpx;
+	color: #C7C7C7;
+	font-size: 28rpx;
+}
+.edit-cv-btn {
+	width: 85%;
+	height: 70rpx;
+	line-height: 70rpx;
+	text-align: center;
+	position: fixed;
+	bottom: 0rpx;
+	left: 50%;
+    -webkit-transform: translateX(-50%);
+	transform: translateX(-50%);
+	color: #FFFFFF;
+	font-size: 28rpx;
+	border-radius: 10rpx;
+	background-color: #38DAA6;
+}
+.live-status {
+	margin-top: 0;
+	padding-top: 0;
+}
+
+
+

@@ -1,0 +1,90 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/course_class_list/course_class_list",
+    "pages/about/banner",
+    "pages/msg/msg",
+    "pages/search/search",
+    "pages/pinglun/pinglun",
+    "pages/live-more/live-more",
+    "pages/coursemore/coursemore",
+    "pages/content-more/content-more",
+    "pages/my/my",
+    "pages/edit_cv/edit_cv",
+    "pages/attenteacher/attenteacher",
+    "pages/about/about",
+    "pages/setting/setting",
+    "pages/yijian-fankui/yijian-fankui",
+    "pages/myclass/myclass",
+    "pages/lianxi-we/lianxi-we",
+    "pages/hasbuy/hasbuy",
+    "pages/teacher/teacher",
+    "pages/teacherlist/teacherlist",
+    "pages/moreteacher/moreteacher",
+    "pages/teacherinfo/teacherinfo",
+    "pages/mystu/mystu",
+    "pages/login/login",
+    "pages/forget_pass/forget_pass",
+    "pages/reg/reg",
+    "pages/login/xieyi",
+    "pages/check_class/check_class",
+    "pages/edit_user/edit_user",
+    "pages/news/news",
+    "pages/news_detail/news_detail",
+    "pages/mineExtension/mineExtension",
+    "pages/mineExtension/extension_poster",
+    "pages/mineExtension/extension_user",
+    "pages/mineExtension/extensionuser",
+    "pages/shop-car/shop-car",
+    "pages/pay/pay",
+    "pages/jifen/jifen"
+  ],
+  "subPackages": [
+    {
+      "root": "packageB",
+      "pages": [
+        "pages/content-detail/content-detail",
+        "pages/live-info/live-infoplay",
+        "pages/live-info/android",
+        "pages/live_course_info/live_course_info",
+        "pages/content-info/content-info"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#FFFFFF"
+  },
+  "tabBar": {
+    "color": "#323232",
+    "selectedColor": "#64D3AD",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/tabbar/index_tabbar.png",
+        "selectedIconPath": "static/tabbar/index_tabbar_selected.png"
+      },
+      {
+        "pagePath": "pages/msg/msg",
+        "text": "消息",
+        "iconPath": "static/tabbar/msg_tabbar.png",
+        "selectedIconPath": "static/tabbar/msg_tabbar_selected.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "个人中心",
+        "iconPath": "./static/tabbar/my_tabbar.png",
+        "selectedIconPath": "static/tabbar/my_tabbar_selected.png"
+      }
+    ]
+  },
+  "usingComponents": {
+    "divider": "/components/common/divider",
+    "no-thing": "/components/common/no-thing"
+  },
+  "sitemapLocation": "sitemap.json"
+}
