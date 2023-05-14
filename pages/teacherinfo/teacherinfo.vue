@@ -141,7 +141,7 @@
 				tabBars:[{
 					name:"简历"
 				},{
-					name: "课程"
+					name: "课件"
 				}],
 				//关注列表
 				list:[

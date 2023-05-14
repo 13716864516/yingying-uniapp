@@ -27,9 +27,9 @@
 			<view class="guan-wrap">
 				<view class="guan-info-wrap">
 					<view class="guanzhu">
-						{{courseDetail.classroomname}}|
+						{{courseDetail.classroomname}}&nbsp;|
 					</view>
-					<text>共{{courseDetail.stunum}}个学生</text>
+					<text>{{courseDetail.lessons}}课时&nbsp;|&nbsp;{{courseDetail.stunum}}学生</text>
 				</view>
 				<!-- 讲师主页按钮 -->
 				<view @click="showTeacherInfo(userInfo.id)" class="teacher-info-btn">
