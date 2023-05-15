@@ -21,8 +21,8 @@
             // 以下请配置自己的域名地址[配置前，请确认好已搭建后台端]
 			site_url: "http://ddos.hyj-kj.cn/api/?s=",
 			site_h5url: "http://ddos.hyj-kj.cn/uniapp",
-			qiniuimageurl:"https://edu-qiniu.sdwanyue.com",
-			biaoqingurl:"http://ddos.hyj-kj.cn/UNIAPP/biaoqing/",
+			qiniuimageurl:"http://cname.hyj-kj.cn",
+			biaoqingurl:"http://cname.hyj-kj.cn/UNIAPP/biaoqing/",
 			// #ifdef MP-WEIXIN
 			socket_url: "wss://demo.sdwanyue.com:19967",
 			// #endif

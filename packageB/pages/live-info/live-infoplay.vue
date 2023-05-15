@@ -798,7 +798,7 @@
 					console.log('上传失败');
 					console.log(error);
 				}, {
-					region: 'ECN',
+					region: 'SCN',
 					domain: getApp().globalData.qiniuimageurl,
 					key: name,
 					uptoken: this.QiNiutoken,

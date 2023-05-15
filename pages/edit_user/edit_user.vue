@@ -98,7 +98,7 @@
 										});
 										
 									}, {
-										region: 'ECN',
+										region: 'SCN',
 										domain: app.globalData.qiniuimageurl,
 										key: name,
 										uptoken: QiNiutoken,
